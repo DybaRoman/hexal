@@ -12,19 +12,21 @@
 <body>
   
   <header>
+      <h1>Hexal</h1>
     <nav class="menu">
-      <a href="#" class="menu-item">portfolio</a>
+      <a href="#portfolio" class="menu-item">portfolio</a>
       <span class="menu-item">&#183;</span>
-      <a href="#" class="menu-item">about</a>
+      <a href="#about" class="menu-item">about</a>
       <div class="menu-item logo"><img src="/hexal/assets/images/logo.png" alt="logo"></div>
-      <a href="#" class="menu-item">blog</a>
+      <a href="#blog" class="menu-item">blog</a>
       <span class="menu-item">&#183;</span>
-      <a href="#" class="menu-item">get in touch</a>
+      <a href="#get-in-touch" class="menu-item">get in touch</a>
     </nav>
+    
   </header>
   
   <main>
-    <section class="slider">
+    <section class="slider" id="portfolio">
      <div class="hex-page">
        <div class="hex-row">
          <div class="hex-layer-1"><div class="hex-layer-2"><div class="hex-layer-3 hex01"></div></div></div>
@@ -48,13 +50,13 @@
      </div>
     </section>
   
-    <section class="blog">
+    <section class="blog" id="about">
       <article class="blog-article">
         <div class="hex-layer-1 blog-photo"><div class="hex-layer-2"><div class="hex-layer-3 hex-photo"></div></div></div>
         <div class="blog-text">
           <h3 class="author">Smith Anderson</h3>
           <p class="profession">Illustrator & Character Designer</p>
-          <p class="about-author">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, 
+          <p class="about-author" id="blog">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor, nibh at sagittis tristique, 
             enim magna pretium augue, eget consectetur sem dui non urna. Integer gravida, diam congue molestie fringilla, elit odio rhoncus turpis,
              ac dictum libero elit vel metus. Morbi egestas sit amet velit eget venenatis. Mauris porttitor, nibh at sagittis tristique, enim magna
               pretium augue, eget consectetur sem dui non urna</p>
@@ -72,7 +74,7 @@
   </main>
   <footer >
     <div class="main-footer">
-      <form action="" method="post" class="get-in-touch">
+      <form action="" method="post" class="get-in-touch" id="get-in-touch">
         <fieldset>
           <h3>Get In Touch</h3>
           <p>In order to get in touch use the contact form below:</p>
